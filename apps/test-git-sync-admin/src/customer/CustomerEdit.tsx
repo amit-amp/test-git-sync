@@ -21,6 +21,17 @@ export const CustomerEdit = (props: EditProps): React.ReactElement => {
         <ReferenceInput source="address.id" reference="Address" label="Address">
           <SelectInput optionText={AddressTitle} />
         </ReferenceInput>
+        <SelectInput
+          source="customerType"
+          label="customer type"
+          choices={[
+            { label: "Organization", value: "Organization" },
+            { label: "Personal", value: "Personal" },
+          ]}
+          optionText="label"
+          allowEmpty
+          optionValue="value"
+        />
         <TextInput label="Email" source="email" type="email" />
         <TextInput label="First Name" source="firstName" />
         <TextInput label="Last Name" source="lastName" />

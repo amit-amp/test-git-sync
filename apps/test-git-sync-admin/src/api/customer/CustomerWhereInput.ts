@@ -5,6 +5,7 @@ import { OrderListRelationFilter } from "../order/OrderListRelationFilter";
 
 export type CustomerWhereInput = {
   address?: AddressWhereUniqueInput;
+  customerType?: "Organization" | "Personal";
   email?: StringNullableFilter;
   firstName?: StringNullableFilter;
   id?: StringFilter;
