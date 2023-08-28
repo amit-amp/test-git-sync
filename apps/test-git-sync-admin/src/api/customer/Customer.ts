@@ -4,6 +4,7 @@ import { Order } from "../order/Order";
 export type Customer = {
   address?: Address | null;
   createdAt: Date;
+  customerType?: "Organization" | "Personal" | null;
   email: string | null;
   firstName: string | null;
   id: string;

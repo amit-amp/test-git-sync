@@ -232,6 +232,7 @@ export class AddressControllerBase {
         },
 
         createdAt: true,
+        customerType: true,
         email: true,
         firstName: true,
         id: true,
