@@ -22,6 +22,7 @@ export const AttendeeEdit = (props: EditProps): React.ReactElement => {
         <ReferenceInput source="event.id" reference="Event" label="Event">
           <SelectInput optionText={EventTitle} />
         </ReferenceInput>
+        <TextInput label="last name" source="lastName" />
         <TextInput label="Name" source="name" />
         <ReferenceArrayInput
           source="tikets"

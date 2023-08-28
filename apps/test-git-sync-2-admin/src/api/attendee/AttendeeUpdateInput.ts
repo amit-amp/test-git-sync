@@ -4,6 +4,7 @@ import { TicketUpdateManyWithoutAttendeesInput } from "./TicketUpdateManyWithout
 export type AttendeeUpdateInput = {
   email?: string;
   event?: EventWhereUniqueInput;
+  lastName?: string | null;
   name?: string;
   tikets?: TicketUpdateManyWithoutAttendeesInput;
 };

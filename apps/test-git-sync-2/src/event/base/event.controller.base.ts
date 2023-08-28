@@ -168,6 +168,7 @@ export class EventControllerBase {
         },
 
         id: true,
+        lastName: true,
         name: true,
       },
     });

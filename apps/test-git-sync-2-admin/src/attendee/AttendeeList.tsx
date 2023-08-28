@@ -24,6 +24,7 @@ export const AttendeeList = (props: ListProps): React.ReactElement => {
           <TextField source={EVENT_TITLE_FIELD} />
         </ReferenceField>
         <TextField label="Id" source="id" />
+        <TextField label="last name" source="lastName" />
         <TextField label="Name" source="name" />
       </Datagrid>
     </List>

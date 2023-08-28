@@ -50,6 +50,7 @@ export class AttendeeControllerBase {
         },
 
         id: true,
+        lastName: true,
         name: true,
       },
     });
@@ -72,6 +73,7 @@ export class AttendeeControllerBase {
         },
 
         id: true,
+        lastName: true,
         name: true,
       },
     });
@@ -95,6 +97,7 @@ export class AttendeeControllerBase {
         },
 
         id: true,
+        lastName: true,
         name: true,
       },
     });
@@ -133,6 +136,7 @@ export class AttendeeControllerBase {
           },
 
           id: true,
+          lastName: true,
           name: true,
         },
       });
@@ -165,6 +169,7 @@ export class AttendeeControllerBase {
           },
 
           id: true,
+          lastName: true,
           name: true,
         },
       });

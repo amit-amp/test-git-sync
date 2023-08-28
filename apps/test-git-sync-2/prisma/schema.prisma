@@ -19,12 +19,13 @@ model Event {
 }
 
 model Attendee {
-  email   String   @unique
-  event   Event    @relation(fields: [eventId], references: [id])
-  eventId String
-  id      String   @id @default(uuid()) @map("attendeeId")
-  name    String
-  tikets  Ticket[]
+  email    String   @unique
+  event    Event    @relation(fields: [eventId], references: [id])
+  eventId  String
+  id       String   @id @default(uuid()) @map("attendeeId")
+  lastName String?
+  name     String
+  tikets   Ticket[]
 }
 
 model Ticket {
