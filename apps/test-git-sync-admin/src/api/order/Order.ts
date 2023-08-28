@@ -8,6 +8,7 @@ export type Order = {
   id: string;
   product?: Product | null;
   quantity: number | null;
+  test: string | null;
   totalPrice: number | null;
   updatedAt: Date;
 };

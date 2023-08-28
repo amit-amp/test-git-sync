@@ -82,6 +82,7 @@ export class OrderControllerBase {
         },
 
         quantity: true,
+        test: true,
         totalPrice: true,
         updatedAt: true,
       },
@@ -123,6 +124,7 @@ export class OrderControllerBase {
         },
 
         quantity: true,
+        test: true,
         totalPrice: true,
         updatedAt: true,
       },
@@ -165,6 +167,7 @@ export class OrderControllerBase {
         },
 
         quantity: true,
+        test: true,
         totalPrice: true,
         updatedAt: true,
       },
@@ -230,6 +233,7 @@ export class OrderControllerBase {
           },
 
           quantity: true,
+          test: true,
           totalPrice: true,
           updatedAt: true,
         },
@@ -280,6 +284,7 @@ export class OrderControllerBase {
           },
 
           quantity: true,
+          test: true,
           totalPrice: true,
           updatedAt: true,
         },

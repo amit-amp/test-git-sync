@@ -6,5 +6,6 @@ export type OrderCreateInput = {
   discount?: number | null;
   product?: ProductWhereUniqueInput | null;
   quantity?: number | null;
+  test?: string | null;
   totalPrice?: number | null;
 };
