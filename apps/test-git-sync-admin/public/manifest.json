@@ -1,6 +1,6 @@
 {
-  "short_name": "test-git-sync-1",
-  "name": "test-git-sync-1",
+  "short_name": "order-mng",
+  "name": "order-mng",
   "icons": [
     {
       "src": "favicon.ico",
