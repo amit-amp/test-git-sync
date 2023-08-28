@@ -1,5 +1,5 @@
 {
-  "name": "@test-git-sync-1/admin",
+  "name": "@order-mng/admin",
   "private": true,
   "dependencies": {
     "@apollo/client": "3.6.9",
